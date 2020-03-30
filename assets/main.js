@@ -49,3 +49,31 @@ else if(myNumber < pcNumber){
 else{
   console.log("PAREGGIO! il tuo numero:", myNumber, "Avversario:" , pcNumber);
 }
+
+
+//versione alternativa: dadi con array;
+
+
+//creo due array contenenti 6 numeri
+var myArray = [1, 2, 3, 4, 5, 6];
+var pcArray = [1, 2, 3, 4, 5, 6];
+
+//Creo due indici diversi per ogni array
+var myI = Math.floor( Math.random() * 5) + 1;
+var pcI = Math.floor( Math.random() * 5) + 1;
+
+console.log("my:" , myArray[myI] , "pc" , pcArray[pcI]);
+
+//verifico con un If quale valore è più alto al corrispondente valore di I
+
+if(myArray[myI] > pcArray[pcI]){
+  console.log("hai vinto con:", myArray[myI], "il tuo avversario ha:" , pcArray[pcI]);
+}
+
+else if (myArray[myI] < pcArray[pcI]){
+  console.log("hai perso il tuo numero:", myArray[myI], "Numero avversario:" , pcArray[pcI]);
+}
+
+else {
+  console.log("pareggio con:", myArray[myI], "il tuo avversario ha:" , pcArray[pcI]);
+}
