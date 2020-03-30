@@ -8,7 +8,7 @@ var email = prompt ("Inserisci la tua mail");
 
 //array conntenente email
 
-var list = ["michele@boolean.careers" ,  "fabio@boolean.careers" , "roberto@boolean.careers" , "diopo"];
+var list = ["michele@boolean.careers" ,  "fabio@boolean.careers" , "roberto@boolean.careers"];
 
 //verificare presenza della mail nell'array tramite ciclo for
 var find = false;
