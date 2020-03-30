@@ -77,3 +77,49 @@ else if (myArray[myI] < pcArray[pcI]){
 else {
   console.log("pareggio con:", myArray[myI], "il tuo avversario ha:" , pcArray[pcI]);
 }
+
+
+// //extra step: confrontare tre array diversi (in caso di numero uguale vince l'array che presenta il valore ridondante per primo! :)
+//
+//
+// //dichiaro i tre array
+// var a = [];
+// var b = [];
+// var c = [];
+//
+// //riempio i 3 array
+// for (var i = 0; i < 10; i++){
+//   a[i] = Math.floor( Math.random() * 5) + 1;
+//   b[i] = Math.floor( Math.random() * 5) + 1;
+//   c[i] = Math.floor( Math.random() * 5) + 1;
+//   }
+//
+//
+//
+//
+// //confronto tramite if i tre ARRAY
+//
+// var myI= Math.floor( Math.random() * 8) +1;
+// console.log("Valore A:" , a[myI] , "Valore B:" , b[myI] , "Valore C:" , c[myI]);
+// var winner;
+//
+// if (a[myI] >= b[myI]){
+//
+//   if (a[myI] >= c[myI]){
+//     winner = "a";
+//   }
+//
+//   else{
+//     winner = "c";
+//   }
+// }
+//
+// else if(b[myI] > c[myI]){
+//   winner = "b";
+// }
+//   else {
+//     winner = "c";
+//   }
+//
+//
+// console.log(winner);
